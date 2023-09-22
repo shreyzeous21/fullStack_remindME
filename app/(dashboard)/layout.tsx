@@ -1,10 +1,6 @@
-import { Metadata } from "next";
+
 import React, { ReactNode } from "react";
 
-export const metadata: Metadata = {
-  title: 'REMIND | ME | Dashboard',
-  description: 'Shrey sadhukhan\'s personal dashboard',
-}
 
 function layout({ children }: { children: ReactNode }) {
   return (
